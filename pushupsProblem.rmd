@@ -40,25 +40,26 @@ Two football players at GC asked their team-mates to do as many pushups as they 
 
 A data frame with 30 observations on the following 3 variables.
 
-_weight_
+**_weight_**  
 weight of subject in pounds.
 
-_pushups_
+**_pushups_**  
 number of pushups completed.
 
-_position_
-a factor with levels **LIN**, **SKILL**: type of position played by the subject. Line positions require high body mass, skill positions require a lot of running around.  
+**_position_**  
+a factor with levels **LINE**, **SKILL**: type of position played by the subject. Line positions require high body mass, skill positions require a lot of running around- run the 40 yd dash in under 4.4 sec 
 
 # Methods
 
 <!--Decide on your methods:  use "variable analysis" or other appropriate descriptors.  Make sure to choose at least one graphical method and at least one numerical method. -->
   
 Variable analysis gives weight and pushups as numerical variables and position as a factor variable.  The two variables of interest are weight and position. Graphical displays would include boxplots as a first thing to look at.
-#Results
+
+# Descriptive Results
 
 <!--Divide this section into two sub-sections:  One for your descriptive  results and one for your inferential results.!-->
 
-## Descriptive Results
+
 
 ### Graphical Descriptive Results
 
@@ -82,7 +83,7 @@ Typically look at boxplots when considering numerical vs categorical data. Inser
 
 
 
-## Inferential Results
+# Inferential Results
 
 <!--State hypothesis clearly.  Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc.  Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question -->
 
