@@ -1,0 +1,98 @@
+---
+title: "Pushups Problem"
+output:
+  html_document:
+    highlight: monochrome
+    toc: true
+    df_print: paged
+date: '`r format(Sys.time(), "%d %B, %Y")`'
+author: 'your name here'
+---
+
+```{r include=FALSE,echo=FALSE}
+
+require(tidyverse)
+require(tigerstats)
+
+```
+
+# Introduction 
+
+<!--In this section you explain what you are trying to show.  Where did the data come from?  What is the research or other question you are trying to answer?
+
+Fork the Rstudio project called pushups to your github account. Clone from your github account to your Rstudio.cloud CRN37591 workspace.  Using the dataset called pushups from the tigerstats package in R, answer the question posed by this null and alternate hypothesis in an html markdown document. -->
+
+$H_0$: There is no difference between the average number of pushups done in two minutes between line and skill players
+
+$H_A$: There is a difference between the  average number of pushups done in two minutes between line and skill players.
+
+Commit the .rmd and .html file, push to your github accout, submit  the URL once you've completed the assignment
+
+<!-- load the data set -->
+
+```{r}
+players <- pushups
+```
+
+
+Two football players at GC asked their team-mates to do as many pushups as they could in two minutes.
+
+
+A data frame with 30 observations on the following 3 variables.
+
+_weight_
+weight of subject in pounds.
+
+_pushups_
+number of pushups completed.
+
+_position_
+a factor with levels **LIN**, **SKILL**: type of position played by the subject. Line positions require high body mass, skill positions require a lot of running around.  
+
+# Methods
+
+<!--Decide on your methods:  use "variable analysis" or other appropriate descriptors.  Make sure to choose at least one graphical method and at least one numerical method. -->
+  
+Variable analysis gives weight and pushups as numerical variables and position as a factor variable.  The two variables of interest are weight and position. Graphical displays would include boxplots as a first thing to look at.
+#Results
+
+<!--Divide this section into two sub-sections:  One for your descriptive  results and one for your inferential results.!-->
+
+## Descriptive Results
+
+### Graphical Descriptive Results
+
+<!--Graphical results here.  Make sure to show your code.  Provide appropriate labels for axes, giving units if possible, and provide a good title for the graph, too.  Use the graphical results to describe the patterns if any that exist in the data as focused toward the research question
+
+Typically look at boxplots when considering numerical vs categorical data. Insert a boxplot here --> 
+
+```{r}
+
+```
+  
+<!-- be sire to tell what the boxplot shows -->
+ 
+### Numerical Descriptive Results
+
+<!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question -->
+
+```{r}
+
+```
+
+
+
+## Inferential Results
+
+<!--State hypothesis clearly.  Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc.  Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question -->
+
+
+```{r}
+
+```
+
+# Discussion and Conclusion
+
+<!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason. -->
+
+
