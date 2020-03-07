@@ -53,7 +53,8 @@ a factor with levels **LINE**, **SKILL**: type of position played by the subject
 
 <!--Decide on your methods:  use "variable analysis" or other appropriate descriptors.  Make sure to choose at least one graphical method and at least one numerical method.  
   
-Variable analysis: You have position (factor) and number of pushups done in two minutes (numerical). What type of graphical display, numerical display and inferential test is appropriate? --> 
+Variable analysis: You have position (factor) and number of pushups done in two minutes (numerical). What type of graphical display, numerical display and inferential test is appropriate?  
+
 
 # Descriptive Results
 
