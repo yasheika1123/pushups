@@ -6,7 +6,7 @@ output:
     toc: true
     df_print: paged
 date: '`r format(Sys.time(), "%d %B, %Y")`'
-author: 'your name here'
+author: 'Yasheika Pink'
 ---
 
 ```{r include=FALSE,echo=FALSE}
